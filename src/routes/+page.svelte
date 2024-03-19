@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+
+
+
+<script>
+    import MainCard from '../components/issuePanel/mainCard.svelte';
+    import NavBar from '../components/header/navBar.svelte';
+</script>
+
+
+<NavBar></NavBar>
+
+<MainCard></MainCard>
