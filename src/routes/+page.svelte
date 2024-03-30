@@ -3,11 +3,12 @@
 
 
 <script>
-    import MainCard from '../components/issuePanel/mainCard.svelte';
+    import MainPanel from '../components/issuePanel/mainPanel.svelte';
     import NavBar from '../components/header/navBar.svelte';
 </script>
 
 
 <NavBar></NavBar>
 
-<MainCard></MainCard>
+<MainPanel></MainPanel>
+
